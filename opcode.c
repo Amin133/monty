@@ -28,7 +28,7 @@ stack_t *push(stack_t **head, int n)
 
 	*head = new;
 
-	return;
+	return (new);
 }
 
 /**
